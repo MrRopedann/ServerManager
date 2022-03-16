@@ -22,7 +22,6 @@ C:\SourceCode\ServerManager\ServerMangerPiratia\bin\Debug\net6.0-windows\ServerM
 C:\SourceCode\ServerManager\ServerMangerPiratia\bin\Debug\net6.0-windows\ServerManagerPiratia.dll
 C:\SourceCode\ServerManager\ServerMangerPiratia\bin\Debug\net6.0-windows\ref\ServerManagerPiratia.dll
 C:\SourceCode\ServerManager\ServerMangerPiratia\bin\Debug\net6.0-windows\ServerManagerPiratia.pdb
-C:\SourceCode\ServerManager\ServerMangerPiratia\obj\Debug\net6.0-windows\ServerManagerPiratia.csproj.AssemblyReference.cache
 C:\SourceCode\ServerManager\ServerMangerPiratia\obj\Debug\net6.0-windows\WinFormsApp1.MainForm.resources
 C:\SourceCode\ServerManager\ServerMangerPiratia\obj\Debug\net6.0-windows\ServerManagerPiratia.Properties.Resources.resources
 C:\SourceCode\ServerManager\ServerMangerPiratia\obj\Debug\net6.0-windows\ServerManagerPiratia.csproj.GenerateResource.cache
@@ -34,3 +33,6 @@ C:\SourceCode\ServerManager\ServerMangerPiratia\obj\Debug\net6.0-windows\ServerM
 C:\SourceCode\ServerManager\ServerMangerPiratia\obj\Debug\net6.0-windows\ref\ServerManagerPiratia.dll
 C:\SourceCode\ServerManager\ServerMangerPiratia\obj\Debug\net6.0-windows\ServerManagerPiratia.pdb
 C:\SourceCode\ServerManager\ServerMangerPiratia\obj\Debug\net6.0-windows\ServerManagerPiratia.genruntimeconfig.cache
+C:\SourceCode\ServerManager\ServerMangerPiratia\obj\Debug\net6.0-windows\ServerManagerPiratia.EditTextFileForm.resources
+C:\SourceCode\ServerManager\ServerMangerPiratia\obj\Debug\net6.0-windows\ServerManagerPiratia.ItemInfo.resources
+C:\SourceCode\ServerManager\ServerMangerPiratia\obj\Debug\net6.0-windows\ServerManagerPiratia.MyTextBox.resources
