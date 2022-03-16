@@ -36,3 +36,4 @@ C:\SourceCode\ServerManager\ServerMangerPiratia\obj\Debug\net6.0-windows\ServerM
 C:\SourceCode\ServerManager\ServerMangerPiratia\obj\Debug\net6.0-windows\ServerManagerPiratia.EditTextFileForm.resources
 C:\SourceCode\ServerManager\ServerMangerPiratia\obj\Debug\net6.0-windows\ServerManagerPiratia.ItemInfo.resources
 C:\SourceCode\ServerManager\ServerMangerPiratia\obj\Debug\net6.0-windows\ServerManagerPiratia.MyTextBox.resources
+C:\SourceCode\ServerManager\ServerMangerPiratia\obj\Debug\net6.0-windows\ServerManagerPiratia.csproj.AssemblyReference.cache

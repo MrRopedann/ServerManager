@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.topMenuPanel = new System.Windows.Forms.Panel();
-            this.EditTextPanel = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
+            this.EditTextPanel = new System.Windows.Forms.Panel();
             this.topMenuPanel.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -43,15 +43,6 @@
             this.topMenuPanel.Name = "topMenuPanel";
             this.topMenuPanel.Size = new System.Drawing.Size(1421, 61);
             this.topMenuPanel.TabIndex = 0;
-            // 
-            // EditTextPanel
-            // 
-            this.EditTextPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(71)))), ((int)(((byte)(79)))));
-            this.EditTextPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.EditTextPanel.Location = new System.Drawing.Point(0, 61);
-            this.EditTextPanel.Name = "EditTextPanel";
-            this.EditTextPanel.Size = new System.Drawing.Size(1421, 726);
-            this.EditTextPanel.TabIndex = 1;
             // 
             // button1
             // 
@@ -66,6 +57,16 @@
             this.button1.TabIndex = 0;
             this.button1.Text = "ItemInfo";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // EditTextPanel
+            // 
+            this.EditTextPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(71)))), ((int)(((byte)(79)))));
+            this.EditTextPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.EditTextPanel.Location = new System.Drawing.Point(0, 61);
+            this.EditTextPanel.Name = "EditTextPanel";
+            this.EditTextPanel.Size = new System.Drawing.Size(1421, 726);
+            this.EditTextPanel.TabIndex = 1;
             // 
             // EditTextFileForm
             // 

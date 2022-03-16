@@ -1,29 +1,13 @@
-﻿using ServerManagerPiratia.Cunstruct;
-
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Windows.Forms;
 
-namespace ServerManagerPiratia
+namespace ServerManagerPiratia.Cunstruct
 {
-    public partial class EditTextFileForm : Form
+    class ChildForm
     {
-        public EditTextFileForm()
-        {
-            InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            OpenChildForm(new ItemInfo(), EditTextPanel);
-        }
-
         // Заполнение
         private static Button currentBtn = new();
         private static Form currentChildForm = null;

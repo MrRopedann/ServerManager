@@ -1,3 +1,6 @@
+using ServerManagerPiratia;
+using ServerManagerPiratia.Cunstruct;
+
 namespace WinFormsApp1
 {
     public partial class MainForm : Form
@@ -27,6 +30,11 @@ namespace WinFormsApp1
                 logoPanel.Image = ServerManagerPiratia.Properties.Resources.pkodevlogo_full;
                 hideMenu = true;
             }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            ChildForm.OpenChildForm(new EditTextFileForm(), mainPanel);
         }
     }
 }
