@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\SourceCode\\ServerManager\\WinFormsApp1\\ServerManagerPiratia.csproj": {}
+    "C:\\SourceCode\\ServerManager\\ServerMangerPiratia\\ServerManagerPiratia.csproj": {}
   },
   "projects": {
-    "C:\\SourceCode\\ServerManager\\WinFormsApp1\\ServerManagerPiratia.csproj": {
+    "C:\\SourceCode\\ServerManager\\ServerMangerPiratia\\ServerManagerPiratia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\SourceCode\\ServerManager\\WinFormsApp1\\ServerManagerPiratia.csproj",
+        "projectUniqueName": "C:\\SourceCode\\ServerManager\\ServerMangerPiratia\\ServerManagerPiratia.csproj",
         "projectName": "ServerManagerPiratia",
-        "projectPath": "C:\\SourceCode\\ServerManager\\WinFormsApp1\\ServerManagerPiratia.csproj",
+        "projectPath": "C:\\SourceCode\\ServerManager\\ServerMangerPiratia\\ServerManagerPiratia.csproj",
         "packagesPath": "C:\\Users\\Omniline\\.nuget\\packages\\",
-        "outputPath": "C:\\SourceCode\\ServerManager\\WinFormsApp1\\obj\\",
+        "outputPath": "C:\\SourceCode\\ServerManager\\ServerMangerPiratia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Omniline\\AppData\\Roaming\\NuGet\\NuGet.Config",

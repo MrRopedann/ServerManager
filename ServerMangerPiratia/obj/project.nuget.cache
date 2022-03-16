@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sfGS7CYLRolZZEtg8xWLAB+CyjO/apzuSoEOPCy5wWXROo5Geakkf6/wz8817YRrDHKfed5c1D8ZUFgiG7KuAg==",
+  "dgSpecHash": "9xVyTpVRW76zVBl5cJEwKxRS18jcgmVFTDMV4flKNwyYb6GZWN97mwU6QDL8FX0fHMHIHhYR5ZhsLT7nGoaIag==",
   "success": true,
-  "projectFilePath": "C:\\SourceCode\\ServerManager\\WinFormsApp1\\ServerManagerPiratia.csproj",
+  "projectFilePath": "C:\\SourceCode\\ServerManager\\ServerMangerPiratia\\ServerManagerPiratia.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

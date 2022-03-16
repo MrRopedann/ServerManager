@@ -1,10 +1,10 @@
 namespace WinFormsApp1
 {
-    public partial class Form1 : Form
+    public partial class MainForm : Form
     {
         bool hideMenu = true;
         string buttonText = "";
-        public Form1()
+        public MainForm()
         {
             InitializeComponent();
         }
