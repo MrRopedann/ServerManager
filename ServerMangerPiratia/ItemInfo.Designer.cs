@@ -184,6 +184,7 @@
             this.button2.TabIndex = 1;
             this.button2.Text = "Search";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // myTextBox2
             // 
@@ -191,6 +192,7 @@
             this.myTextBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.myTextBox2.Dock = System.Windows.Forms.DockStyle.Left;
             this.myTextBox2.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.myTextBox2.ForeColor = System.Drawing.Color.White;
             this.myTextBox2.Location = new System.Drawing.Point(0, 0);
             this.myTextBox2.Name = "myTextBox2";
             this.myTextBox2.PlaceholderText = "Enter \"ID\" or \"Name Item\"";
