@@ -13,5 +13,8 @@
     <Compile Update="MyTextBox.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Update="NpcManagerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

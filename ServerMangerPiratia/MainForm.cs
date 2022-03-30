@@ -36,5 +36,10 @@ namespace WinFormsApp1
         {
             ChildForm.OpenChildForm(new EditTextFileForm(), mainPanel);
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            ChildForm.OpenChildForm(new NpcManagerForm(), mainPanel);
+        }
     }
 }
