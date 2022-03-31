@@ -80,24 +80,31 @@
         '\"',
         '\'',
         '\''};
-            this.zeroitCodeTextBox1.AutoScrollMinSize = new System.Drawing.Size(171, 14);
+            this.zeroitCodeTextBox1.AutoIndentCharsPatterns = "\r\n^\\s*[\\w\\.]+(\\s\\w+)?\\s*(?<range>=)\\s*(?<range>.+)\r\n";
+            this.zeroitCodeTextBox1.AutoScrollMinSize = new System.Drawing.Size(25, 15);
             this.zeroitCodeTextBox1.BackBrush = null;
-            this.zeroitCodeTextBox1.CharHeight = 14;
-            this.zeroitCodeTextBox1.CharWidth = 8;
+            this.zeroitCodeTextBox1.BracketsHighlightStrategy = Zeroit.Framework.CodeTextBox.BracketsHighlightStrategy.Strategy2;
+            this.zeroitCodeTextBox1.CharHeight = 15;
+            this.zeroitCodeTextBox1.CharWidth = 7;
+            this.zeroitCodeTextBox1.CommentPrefix = "--";
             this.zeroitCodeTextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.zeroitCodeTextBox1.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))));
             this.zeroitCodeTextBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.zeroitCodeTextBox1.Font = new System.Drawing.Font("Courier New", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.zeroitCodeTextBox1.FindEndOfFoldingBlockStrategy = Zeroit.Framework.CodeTextBox.FindEndOfFoldingBlockStrategy.Strategy2;
+            this.zeroitCodeTextBox1.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.zeroitCodeTextBox1.IsReplaceMode = false;
             this.zeroitCodeTextBox1.Language = Zeroit.Framework.CodeTextBox.Language.Lua;
+            this.zeroitCodeTextBox1.LeftBracket = '(';
+            this.zeroitCodeTextBox1.LeftBracket2 = '{';
             this.zeroitCodeTextBox1.Location = new System.Drawing.Point(0, 0);
             this.zeroitCodeTextBox1.Name = "zeroitCodeTextBox1";
             this.zeroitCodeTextBox1.Paddings = new System.Windows.Forms.Padding(0);
+            this.zeroitCodeTextBox1.RightBracket = ')';
+            this.zeroitCodeTextBox1.RightBracket2 = '}';
             this.zeroitCodeTextBox1.SelectionColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
             this.zeroitCodeTextBox1.ServiceColors = ((Zeroit.Framework.CodeTextBox.ServiceColors)(resources.GetObject("zeroitCodeTextBox1.ServiceColors")));
             this.zeroitCodeTextBox1.Size = new System.Drawing.Size(723, 568);
             this.zeroitCodeTextBox1.TabIndex = 0;
-            this.zeroitCodeTextBox1.Text = "zeroitCodeTextBox1";
             this.zeroitCodeTextBox1.Zoom = 100;
             // 
             // NPCLuaCodeGenirator

@@ -38,8 +38,8 @@ namespace ServerManagerPiratia
         public string InitTrade(string TypeTrade, int idItem)
         {
             return string.Format(
-                                "\n" + "InitTrade()" +
-                                "\n" + "{0}({1})", TypeTrade, idItem 
+                                "\n\t" + "InitTrade()" +
+                                "\n\t" + "{0}({1})", TypeTrade, idItem 
                                 );
         }
 
@@ -51,8 +51,8 @@ namespace ServerManagerPiratia
         private void button1_Click(object sender, EventArgs e)
         {
             zeroitCodeTextBox1.Text = Function("npc_kuznec");
-            zeroitCodeTextBox1.Text += "\n" + Talk(1, "Кузнец - Голди:_Я могу помочь тебе в этом длинном _путешествии от новичка до Укротителя Морей!");
-            zeroitCodeTextBox1.Text += "\n" + TextLua(1, "Торг", "BuyPage");
+            zeroitCodeTextBox1.Text += "\n\t" + Talk(1, "Кузнец - Голди:_Я могу помочь тебе в этом длинном _путешествии от новичка до Укротителя Морей!");
+            zeroitCodeTextBox1.Text += "\n\t" + TextLua(1, "Торг", "BuyPage");
             zeroitCodeTextBox1.Text += InitTrade("Weapon", 0453);
             zeroitCodeTextBox1.Text += End();
         }
