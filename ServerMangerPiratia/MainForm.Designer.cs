@@ -33,6 +33,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.logoPanel = new System.Windows.Forms.PictureBox();
             this.mainPanel = new System.Windows.Forms.Panel();
+            this.button2 = new System.Windows.Forms.Button();
             this.leftPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.logoPanel)).BeginInit();
             this.SuspendLayout();
@@ -40,6 +41,7 @@
             // leftPanel
             // 
             this.leftPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(61)))), ((int)(((byte)(66)))));
+            this.leftPanel.Controls.Add(this.button2);
             this.leftPanel.Controls.Add(this.button1);
             this.leftPanel.Controls.Add(this.logoPanel);
             this.leftPanel.Dock = System.Windows.Forms.DockStyle.Left;
@@ -86,6 +88,23 @@
             this.mainPanel.Size = new System.Drawing.Size(1108, 723);
             this.mainPanel.TabIndex = 1;
             // 
+            // button2
+            // 
+            this.button2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button2.Image = global::ServerManagerPiratia.Properties.Resources.editFile;
+            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button2.Location = new System.Drawing.Point(0, 154);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(270, 54);
+            this.button2.TabIndex = 4;
+            this.button2.Text = "NPC Manager";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -110,5 +129,6 @@
         private Panel mainPanel;
         private PictureBox logoPanel;
         private Button button1;
+        private Button button2;
     }
 }
