@@ -48,15 +48,13 @@ namespace ServerManagerPiratia
             return "\nend";
         }
 
-        
-
         private void button1_Click(object sender, EventArgs e)
         {
-            textEditorControl1.Text = Function("npc_kuznec");
-            textEditorControl1.Text += "\n" + Talk(1, "Кузнец - Голди:_Я могу помочь тебе в этом длинном _путешествии от новичка до Укротителя Морей!");
-            textEditorControl1.Text += "\n" + TextLua(1, "Торг", "BuyPage");
-            textEditorControl1.Text += InitTrade("Weapon", 0453);
-            textEditorControl1.Text += End();
+            zeroitCodeTextBox1.Text = Function("npc_kuznec");
+            zeroitCodeTextBox1.Text += "\n" + Talk(1, "Кузнец - Голди:_Я могу помочь тебе в этом длинном _путешествии от новичка до Укротителя Морей!");
+            zeroitCodeTextBox1.Text += "\n" + TextLua(1, "Торг", "BuyPage");
+            zeroitCodeTextBox1.Text += InitTrade("Weapon", 0453);
+            zeroitCodeTextBox1.Text += End();
         }
     }
 }
