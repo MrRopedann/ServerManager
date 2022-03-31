@@ -41,5 +41,10 @@ namespace WinFormsApp1
         {
             ChildForm.OpenChildForm(new NpcManagerForm(), mainPanel);
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            ChildForm.OpenChildForm(new NPCLuaCodeGenirator(), mainPanel);
+        }
     }
 }

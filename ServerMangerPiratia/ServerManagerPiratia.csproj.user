@@ -13,6 +13,9 @@
     <Compile Update="MyTextBox.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Update="NPCLuaCodeGenirator.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="NpcManagerForm.cs">
       <SubType>Form</SubType>
     </Compile>
